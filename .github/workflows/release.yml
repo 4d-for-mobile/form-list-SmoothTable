@@ -7,7 +7,7 @@ jobs:
     name: Publish
     runs-on: macos-latest
     env:
-      RELEASE_REPO: "https://raw.githubusercontent.com/4d-for-mobile/check-workflow/master/form/scripts"
+      RELEASE_REPO: "https://raw.githubusercontent.com/4d-go-mobile/check-workflow/master/form/scripts"
     steps:
       - name: ⬇️ Checkout
         uses: actions/checkout@master
