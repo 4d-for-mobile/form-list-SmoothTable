@@ -13,12 +13,12 @@
     <!-- Generated with list form template named "Smooth Table List" -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/Theme.MyApplication.CustomCard.Background"
+        style="@style/Theme.MyApplication.Custom.Background.Alt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
-            style="@style/Theme.MyApplication.CustomCard.Card"
+            style="@style/Theme.MyApplication.Card.Background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
