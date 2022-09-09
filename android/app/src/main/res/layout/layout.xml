@@ -14,16 +14,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:paddingHorizontal="8dp">
 
         <com.google.android.material.card.MaterialCardView
-            style="?materialCardViewElevatedStyle"
+            style="?attr/materialCardViewElevatedStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +44,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_1___"
                     android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                    android:textColor="?colorOnSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/___SPECIFIC_ID_2___"
                     app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +62,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_2___"
                     android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
-                    android:textColor="?colorOnSurface"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintBottom_toTopOf="@id/___SPECIFIC_ID_3___"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/___SPECIFIC_ID_1___"
@@ -83,7 +81,7 @@
                     android:text="___TEXT_3___"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
-                    android:textColor="?colorOnSurface"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
